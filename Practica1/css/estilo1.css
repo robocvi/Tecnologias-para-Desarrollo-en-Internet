@@ -1,0 +1,62 @@
+body {
+  background-image: url("https://wallpaperaccess.com/full/2168406.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+ul {
+  font-size: 22px;
+  display: flex;
+}
+
+li {
+  margin: 30px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.title{
+  text-align: center;
+}
+
+.video {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.imagen-lista {
+  width: 300px;
+  border-radius: 8px;
+}
+
+.descripcion {
+  background-color: #000080;
+  display:inline-block;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.linkpagina{
+  display: flex;
+  justify-content: center;
+}
+
+a:link, a:visited {
+  background-color: pink;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  background-color: pink;
+}
